@@ -64,7 +64,7 @@
                                 <input type="checkbox" name="Hobbies[]" value="Others" id="Others">
                                     <label for="Others">Others</label><br>
                                 <br>
-                                <b>Joining Date:<b><input type="date" name="JoiningDate" max="2021-09-23" class="form-control mb-2" required>
+                                <h6>Joining Date:<h6><input type="date" name="JoiningDate" max="2021-09-23" class="form-control mb-2" required>
                                 <label for="Department"><b>Department</b></label>
                                 <select name="Department" id="Department">
                                     <option>None</option>
@@ -80,6 +80,8 @@
                         </div>
                     <div class="card-footer">
                             <button class="btn btn-success" name="btn_save"> Save </button>
+                            <center>or</center>
+                            <b><a rel="hover" class="button_hover" href="index1.php">Click here to upload file to fill the form</a></p>
                         </form>
                     </div>
                 </div>
